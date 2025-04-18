@@ -6,45 +6,45 @@ import { BookOpen, CalendarDays } from "lucide-react";
 const blogs = [
   {
     id: 1,
-    title: "Flutter vs. Flock: Cross-Platform Evolution",
-    date: "Nov 18, 2024",
+    title: "Exploring the Evolution of Motorcycles",
+    date: "Apr 18, 2025",
     description:
-      "This article provides a comprehensive comparative analysis of Flutter and Flock, with an emphasis on their respective development trajectories and community-driven enhancements.",
+      "This article delves into the engineering marvels and technological advancements in motorcycles over the years, from classic designs to modern innovations.",
   },
   {
     id: 2,
-    title: "The Future of Flutter in 2025",
-    date: "Nov 13, 2024",
+    title: "Future of Automotive Design: 2025 and Beyond",
+    date: "Apr 12, 2025",
     description:
-      "An in‑depth exploration of Flutter’s projected impact on mobile and web development ecosystems throughout 2025, including emerging trends and use cases.",
+      "A look into the automotive industry's trends, innovations in car safety, and the growing role of electric vehicles in shaping the future of transportation.",
   },
   {
     id: 3,
-    title: "Top UI Frameworks to Watch in 2025",
-    date: "Nov 5, 2024",
+    title: "The Impact of Coding in Modern Innovation",
+    date: "Apr 5, 2025",
     description:
-      "A survey of the most influential UI frameworks poised to shape modern application development in 2025, covering Flutter, SwiftUI, Jetpack Compose, and others.",
+      "A deep dive into how software development drives progress in various fields, including tech, healthcare, and entertainment, and the importance of scalable solutions.",
   },
   {
     id: 4,
-    title: "Building Scalable Apps: Architectures that Work",
-    date: "Oct 29, 2024",
+    title: "Motorcycle Safety: Engineering for Better Protection",
+    date: "Mar 28, 2025",
     description:
-      "An examination of best practices in software architecture for crafting scalable, maintainable applications in contemporary development environments.",
+      "An overview of advancements in motorcycle safety features, including crash avoidance technologies, helmet innovations, and protective gear designs.",
   },
   {
     id: 5,
-    title: "React vs Vue: Which One Should You Learn in 2025?",
-    date: "Oct 20, 2024",
+    title: "Electric Vehicles: Revolutionizing the Car Industry",
+    date: "Mar 20, 2025",
     description:
-      "A comparative evaluation of React and Vue, focusing on performance benchmarks, ecosystem robustness, and learning curve considerations for 2025.",
+      "Exploring the transition to electric vehicles, the challenges of charging infrastructure, and the environmental benefits of cleaner energy solutions in the automotive sector.",
   },
   {
     id: 6,
-    title: "10 Tips for Clean Code Every Developer Should Know",
-    date: "Oct 10, 2024",
+    title: "Best Practices for Clean and Efficient Code",
+    date: "Mar 10, 2025",
     description:
-      "A concise presentation of ten essential practices for writing clear, maintainable code that adheres to industry standards.",
+      "A comprehensive guide to writing clean code, focusing on industry best practices, code maintainability, and efficient design patterns for scalable software solutions.",
   },
 ];
 
