@@ -2,12 +2,19 @@
 
 import { Sun, Moon, User, FileText, Image, Pen, Mail } from "lucide-react";
 
-export default function Navbar({ toggleTheme, darkMode, setActiveSection }: any) {
+interface NavbarProps {
+  toggleTheme: () => void;
+  darkMode: boolean;
+  setActiveSection: (section: string) => void;
+}
+
+export default function Navbar({ toggleTheme, darkMode, setActiveSection }: NavbarProps) {
   return (
     <nav className="flex items-center justify-between px-8 py-5 shadow-sm border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-black font-poppins transition-all duration-300">
       {/* Logo */}
       <div className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white select-none">
-
+        {/* You can put your logo or name here */}
+        Rithesh
       </div>
 
       {/* Nav Links */}
