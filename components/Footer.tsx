@@ -1,0 +1,8 @@
+export default function Footer() {
+    return (
+      <footer className="text-center text-sm text-white py-6 mt-10 border-t border-gray-700">
+        © {new Date().getFullYear()} Rithesh. All rights reserved.
+      </footer>
+    );
+  }
+  

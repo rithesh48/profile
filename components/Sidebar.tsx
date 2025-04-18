@@ -11,7 +11,8 @@ import {
 
 export default function Sidebar() {
   return (
-    <div className="bg-[#2b2b2b] fixed top-6 left-6 h-[92vh] w-72 rounded-2xl p-6 text-center shadow-lg overflow-y-auto z-10">
+<div className="bg-[#2b2b2b] sticky top-6 w-72 rounded-2xl p-6 text-center shadow-lg overflow-y-auto">
+
       <div className="flex flex-col items-center">
         {/* Avatar */}
         <div className="bg-gray-800 p-4 rounded-xl mb-4">

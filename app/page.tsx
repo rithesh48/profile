@@ -10,6 +10,7 @@ import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
 import { Briefcase, Layers, BookOpen, Mail } from "lucide-react";
 
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const [activeSection, setActiveSection] = useState("About");
