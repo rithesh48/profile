@@ -1,3 +1,4 @@
+// 
 "use client";
 
 import {
@@ -11,8 +12,7 @@ import {
 
 export default function Sidebar() {
   return (
-<div className="bg-[#2b2b2b] sticky top-6 w-72 rounded-2xl p-6 text-center shadow-lg overflow-y-auto">
-
+    <div className="bg-[#2b2b2b] sticky top-0 left-0 w-full h-screen p-6 text-center shadow-lg overflow-y-auto">
       <div className="flex flex-col items-center">
         {/* Avatar */}
         <div className="bg-gray-800 p-4 rounded-xl mb-4">
